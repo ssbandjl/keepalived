@@ -1,0 +1,15 @@
+配置文件: https://manpages.debian.org/unstable/keepalived/keepalived.conf.5.en.html, doc/man/man5/keepalived.conf.5
+
+
+
+
+没有安装man时, 查看配置详情: groff -t -e -mandoc -Tascii keepalived.conf.5 | col -bx
+
+
+keepalived/main.c -> int main(int argc, char **argv)
+keepalived_main(argc, argv)
+  process_threads
+  thread_fetch_next_queue
+
+
+vrrp_state_master_tx
